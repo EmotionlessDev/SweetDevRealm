@@ -94,6 +94,10 @@ input:focus-visible {
 
 #main {
     position: relative;
-    background: rgba(255, 255, 255, 0.8);
-    border: 5px solid rgba(163, 204, 222, 0.8);
+}
+
+body {
+    background: url("../img/background2.gif") no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
