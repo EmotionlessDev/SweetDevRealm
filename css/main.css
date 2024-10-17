@@ -1,0 +1,36 @@
+/* FONTS */
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../fonts/Pacifico-Regular.woff2') format('woff2'),
+    url('../fonts/Pacifico-Regular.woff') format('woff'),
+    url('../fonts/Pacifico-Regular.ttf') format('truetype'),
+    url('../fonts/Pacifico-Regular.svg#CustomFont') format('svg');
+}
+
+@font-face {
+    font-family: 'AmaticSC-B';
+    src: url('../fonts/AmaticSC-Bold.woff2') format('woff2'),
+    url('../fonts/AmaticSC-Bold.woff') format('woff'),
+    url('../fonts/AmaticSC-Bold.ttf') format('truetype'),
+    url('../fonts/AmaticSC-Bold.svg#CustomFont') format('svg');
+}
+
+@font-face {
+    font-family: 'AmaticSC-R';
+    src: url('../fonts/AmaticSC-Regular.woff2') format('woff2'),
+    url('../fonts/AmaticSC-Regular.woff') format('woff'),
+    url('../fonts/AmaticSC-Regular.ttf') format('truetype'),
+    url('../fonts/AmaticSC-Regular.svg#CustomFont') format('svg');
+}
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url('../fonts/DancingScript-Regular.woff2') format('woff2'),
+    url('../fonts/DancingScript-Regular.woff') format('woff'),
+    url('../fonts/DancingScript-Regular.ttf') format('truetype'),
+    url('../fonts/DancingScript-Regular.svg#CustomFont') format('svg');
+}
+
+body {
+    font-family: 'Pacifico', serif;
+}
