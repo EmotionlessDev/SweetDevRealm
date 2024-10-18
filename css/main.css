@@ -101,3 +101,39 @@ body {
     background-size: cover;
     height: 100vh;
 }
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    width: 400px;
+    background: #FFC0CB;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    font-family: "Pacifico", sans-serif;
+    font-size: 32px;
+    color: #fff;
+    transition: 1.2s ease all;
+}
+
+.logo:hover {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9)
+}
