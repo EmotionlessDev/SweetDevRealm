@@ -165,6 +165,8 @@ section {
     background: url("../img/background2.gif") no-repeat center fixed;
     background-size: cover;
     height: 100vh;
+    min-height: 900px;
+    max-height: 1000px;
 }
 
 .overlay-wrapper {
@@ -260,6 +262,7 @@ section {
 .cards__items {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card__item__title {
@@ -305,6 +308,7 @@ section {
     flex-direction: column;
     align-items: center;
     height: 100%;
+    width: 100%;
     border: #86799B 1px solid;
     position: relative;
     transition: 1.2s ease all;
@@ -333,9 +337,84 @@ section {
 .background-flowers-bottom {
     bottom: -230px;
     position: absolute;
+    width: 100%;
 }
 
 .background-flowers-bottom img {
     height: auto;
     width: 100%;
+}
+
+
+/*--------- Media quaries ---------*/
+/*--------- col -> col-sm -> col-md -> col-lg -> col-xl ---------*/
+
+/*--------- 992 - 1200 ---------*/
+@media screen and (max-width: 1200px) {
+    /*  Cards  */
+    .cards__items {
+        justify-content: center;
+    }
+    .card__item {
+        width: 40%;
+        margin: 40px;
+    }
+    .background-flowers-bottom {
+        bottom: -100px;
+    }
+}
+
+/*--------- 768 - 992 ---------*/
+@media screen and (max-width: 991px) {
+    /* Overlay */
+    .overlay__pony {
+        display: none;
+    }
+    .overlay-wrapper {
+        justify-content: center;
+    }
+    /* Cards */
+    .card__item {
+        width: 100%;
+    }
+
+}
+
+/*--------- 576 - 768 ---------*/
+@media screen and (max-width: 767px) {
+    /* Cards */
+    .card__item {
+        height: 550px;
+    }
+    .background-flowers-bottom {
+        bottom: -10px;
+        width: 800px;
+    }
+}
+
+/*--------- 320 - 578 ---------*/
+@media screen and (max-width: 576px) {
+    /*  Header  */
+    .logo {
+        width: 300px;
+        padding: 0;
+    }
+    /* overlay*/
+    .overlay__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .overlay__nav li a {
+        padding: 10px;
+        width: 200px;
+    }
+    /* Cards  */
+    .card__item {
+        height: 575px;
+    }
+    .background-flowers-top {
+
+        bottom: 0;
+    }
 }
