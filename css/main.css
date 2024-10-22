@@ -108,6 +108,10 @@ section {
     margin: auto;
 }
 
+.highlight {
+
+}
+
 /* Header */
 
 .background-flowers-top {
@@ -273,6 +277,7 @@ section {
     height: 500px;
 }
 
+
 .card__item__block-wrapper {
     background: #F9D1DF;
     padding: 10px;
@@ -285,6 +290,11 @@ section {
     align-items: center;
     border: #86799B 1px solid;
     height: 100%;
+    transition: 1.2s ease all;
+}
+
+.card__item__block-wrapper:hover {
+    transform: scale(1.2);
 }
 
 .card__item__block {
@@ -297,7 +307,9 @@ section {
     height: 100%;
     border: #86799B 1px solid;
     position: relative;
+    transition: 1.2s ease all;
 }
+
 
 .card__item__logo {
 
@@ -321,7 +333,6 @@ section {
 .background-flowers-bottom {
     bottom: -230px;
     position: absolute;
-    z-index: 1338;
 }
 
 .background-flowers-bottom img {
