@@ -232,6 +232,21 @@ section {
     transform: scale(0.9)
 }
 
+.overlay__social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay__social-links a {
+    margin-right: 20px;
+}
+
+.overlay__social-links a img {
+    width: 60px;
+    height: 60px;
+}
+
 .overlay__nav li a {
     text-transform: uppercase;
     color: #fff;
